@@ -1,0 +1,55 @@
+.post-full{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.post-full-user, .post-full-card, .post-full-comments{
+    margin: 0px 8px;
+    width: 100%;
+}
+
+.post-full-user{
+    padding: 10px;
+    background-color: rgba(119, 136, 153, 0.8);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    color: #ffffff
+}.post-full-user span{
+    font-weight: 100;
+    letter-spacing: 2px;
+}.post-full-user a{
+    padding: 6px 10px;
+    background-color: rgb(219, 71, 71);
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.post-full-card{
+    margin-bottom: 16px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    box-sizing: border-box;
+}.post-full-card div{
+    margin: 8px 0px;
+}.post-full-card-title{
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}.post-full-card-body{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.post-full-comments span{
+    margin-right: 10px;
+    letter-spacing: 1.4px;
+    font-weight: 300;
+}

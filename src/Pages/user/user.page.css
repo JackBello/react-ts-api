@@ -1,0 +1,119 @@
+.user-perfil{
+    margin: 10px;
+    padding: 14px 12px;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}.user-perfil div{
+    margin: 8px;
+}
+
+.user-perfil-head{
+    padding: 20px 0px;
+    background-color: rgba(67, 109, 138, 0.1);
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    box-sizing: border-box;
+}.user-perfil-h-photo{
+    margin: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3pc;
+}.user-perfil-h-names{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}.user-perfil-h-names span{
+    margin: 4px 0px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}.user-perfil-h-names a{
+    margin-top: 10px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+
+.user-perfil-body{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}.user-perfil-body main{
+    width: 100%;
+    margin: 6px 0px;
+}.user-perfil-body main i{
+    margin-right: 10px;
+}.user-perfil-body span{
+    font-weight: 300;
+    letter-spacing: 1.4px;
+}
+
+.user-perfil-b-address{
+    display: flex;
+    flex-flow: column wrap;
+}.user-perfil-b-address span{
+    margin: 5px;
+}
+
+.user-perfil-aside{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}.user-perfil-a-nav{
+    display: flex;
+    justify-content: center;
+}.user-perfil-a-nav a{
+    margin: 0px 8px;
+    padding: 8px 10px;
+    text-decoration: none;
+    background-color: rgb(43, 153, 226);
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 1.2pc;
+}
+
+.user-perfil-a-main{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.user-posts, .user-tasks{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.user-albums{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.user-photos{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-gap: 5px;
+}.user-photos span{
+    grid-column: 1 / span 3;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+}

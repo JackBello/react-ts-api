@@ -1,0 +1,20 @@
+.card-task{
+    margin: 10px 8px;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.card-task-title{
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+}.card-task-title span{
+    margin-left: 10px;
+}
